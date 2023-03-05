@@ -11,5 +11,5 @@ def bubleSort(items):
 
 print('Welcome to the buble sort algorithm')
 number = input('Enter the list items seperated by spaces: ')
-items = number.split 
+items = number.split().replace(' ' by ',')
 bubleSort(items)
